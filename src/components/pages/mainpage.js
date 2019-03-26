@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+
 import slidera from "./a.png";
 import sliderb from "./b.png";
 import sliderc from "./c.png";
@@ -78,7 +78,7 @@ class MainPage extends Component {
         </Row>
 
         <Row>
-          <Col sm="12">a</Col>
+          <Col sm="12">ab</Col>
         </Row>
       </Container>
     );
