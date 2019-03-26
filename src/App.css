@@ -54,3 +54,17 @@ li :last-child {
   bottom: 20%;
   right: 15px;
 }
+
+.subs {
+  font-size: 1.5em;
+  text-shadow: #0a0a0a 1px 1px;
+  text-align: center;
+}
+
+.email {
+  background: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-shadow: 2px 2px rgb(0, 0, 5);
+  margin-right: 15px;
+}

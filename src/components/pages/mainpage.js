@@ -1,6 +1,13 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
-
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  Button,
+  Carousel,
+  Jumbotron
+} from "react-bootstrap";
 
 import slidera from "./a.png";
 import sliderb from "./b.png";
@@ -78,7 +85,23 @@ class MainPage extends Component {
         </Row>
 
         <Row>
-          <Col sm="12">ab</Col>
+          <Col sm="12" className="subs">
+            <Jumbotron>
+              <p>
+                Sign up to recieve my free ebook on Introduction to programming
+                or "From Idea to Implementation"
+              </p>
+              <input
+                type="email"
+                id="email"
+                placeholder="enter your email address"
+                className="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </Jumbotron>
+          </Col>
         </Row>
       </Container>
     );
