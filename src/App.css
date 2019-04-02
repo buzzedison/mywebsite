@@ -63,8 +63,7 @@ li :last-child {
 
 .email {
   background: transparent;
-  padding-right: 15px;
-  padding-left: 15px;
+
   box-shadow: 2px 2px rgb(0, 0, 5);
   margin-right: 15px;
 }
